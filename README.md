@@ -127,7 +127,7 @@ maximum_MODA is 47.48%
 
 - `CUDA_VISIBLE_DEVICES=0,1 python main_coding_and_inference.py --dataset_path /PATH/TO/Wildtrack_dataset --model_path /PATH/TO/PRETRAINED_MODEL_IN_STEP_ONE/ --epochs 10`
 
-	- The parameter `model_path` specifies the specifies the path to the pretrained model after Setp 1.
+	- The parameter `model_path` specifies the path to the pretrained model after Setp 1.
 
 	- The parameter `dataset_path` specifies the path to the dataset.
 
