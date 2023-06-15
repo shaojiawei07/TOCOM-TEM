@@ -33,9 +33,9 @@ class PerspectiveTrainer(BaseTrainer):
         gt_losses = 0 
         bits_losses = 0
 
-        taret_bit = self.model.args.target_bit
+        target_rate = self.model.args.target_rate
 
-        target_bits_loss = torch.FloatTensor([taret_bit]).to('cuda:0')
+        target_rate = torch.FloatTensor([target_rate]).to('cuda:0')
 
         precision_s, recall_s = AverageMeter(), AverageMeter()
         for batch_idx, (data, map_gt, _) in enumerate(data_loader):
@@ -53,7 +53,7 @@ class PerspectiveTrainer(BaseTrainer):
                 gt_loss = self.criterion(map_res_list[:,i], map_gt[:,i].to(map_res_list[:,i].device), data_loader.dataset.map_kernel)
                 gt_weighted_loss = gt_weighted_loss + gt_loss * (0.5 ** i)
 
-            loss = gt_weighted_loss + torch.max(bits_loss, target_bits_loss) * self.beta
+            loss = gt_weighted_loss + torch.max(bits_loss, target_rate) * self.beta
 
 
             loss.backward()

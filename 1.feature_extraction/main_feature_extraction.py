@@ -92,7 +92,7 @@ if __name__ == '__main__':
     parser.add_argument('--log_interval', type=int, default=20, metavar='N',
                         help='how many batches to wait before logging training status')
     parser.add_argument('--seed', type=int, default=1, help='random seed (default: None)')
-    parser.add_argument('--target_bit', type=float, default= 250,  help='(KB)')
+    parser.add_argument('--target_rate', type=float, default= 250,  help='(KB)')
     parser.add_argument('--tau1', type=int, default=0)
     parser.add_argument('--dataset_path', type=str, default='../Wildtrack_dataset')
 
