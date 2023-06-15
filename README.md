@@ -199,3 +199,10 @@ maximum_MODA is 82.25% minimum_bits_loss 76.82 KB
   year={2022}
 }
 ```
+
+## Find our other works on task-oriented communication
+
+- J. Shao, Y. Mao, and J. Zhang, “Learning task-oriented communication for edge inference: An information bottleneck approach,” IEEE J. Select. Areas Commun, vol. 40, no. 1, pp. 197-211, Jan. 2022. [[Arxiv]](https://arxiv.org/abs/2109.00172)[[Code]](https://github.com/shaojiawei07/VL-VFE)
+
+- J. Shao, Y. Mao, and J. Zhang, “Task-oriented communication for multi-device cooperative edge inference,” IEEE Trans. Wireless Commun., vol. 11, no. 1, pp. 73-87, Jan. 2023. [[Arxiv]](https://arxiv.org/abs/2109.00172)[[Code]](https://github.com/shaojiawei07/VDDIB-SR)
+
