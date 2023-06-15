@@ -12,7 +12,7 @@ With the development of artificial intelligence (AI) techniques and the increasi
 ## Experiments
 
 We evaluate the proposed TOCOM-TEM method in the multi-view pedestrian occupancy prediction task.
-Consider an edge server predicts the pedestrian occupancy map based on the images transmitted from the cameras.
+Consider an edge server predicts the pedestrian occupancy map based on the images transmitted from multiple cameras.
 Our method enables low-latency inference that reduces the communication overhead while maintaining the desired performance.
 In particular, we select the multiple object detection accuracy (MODA) as the performance metric.
 
