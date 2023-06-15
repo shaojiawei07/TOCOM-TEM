@@ -89,7 +89,7 @@ res_fpath logs_feature_extraction/2023-06-15_20-51-33/test.txt
 gt_fpath ../Wildtrack_dataset/gt.txt
 moda: 20.80%, modp: 61.29%, precision: 86.94%, recall: 24.47%
 Communication cost: 319.57 KB
-maximum_MODA is 20.80
+maximum_MODA is 20.80%
 Training...
 Epoch: 2, batch: 20, loss: 0.009069, gt_losses: 0.006346, communication cost: 272.28 KB
 Epoch: 2, batch: 40, loss: 0.009106, gt_losses: 0.006421, communication cost: 268.49 KB
@@ -114,7 +114,7 @@ res_fpath logs_feature_extraction/2023-06-15_20-51-33/test.txt
 gt_fpath ../Wildtrack_dataset/gt.txt
 moda: 47.48%, modp: 69.15%, precision: 88.57%, recall: 54.52%
 Communication cost: 124.80 KB
-maximum_MODA is 47.48
+maximum_MODA is 47.48%
 ```
 
 
