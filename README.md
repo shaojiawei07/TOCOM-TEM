@@ -6,7 +6,6 @@ This repository is for the [manuscript](https://arxiv.org/abs/2211.14049) "Task-
 
 With the development of artificial intelligence (AI) techniques and the increasing popularity of camera-equipped devices, many edge video analytics applications are emerging, calling for the deployment of computation-intensive AI models at the network edge. Edge inference is a promising solution to move the computation-intensive workloads from low-end devices to a powerful edge server for video analytics, but the device-server communications will remain a bottleneck due to the limited bandwidth. This work proposes a task-oriented communication framework for edge video analytics, where multiple devices collect the visual sensory data and transmit the informative features to an edge server for processing. To enable low-latency inference, this framework removes video redundancy in spatial and temporal domains and transmits minimal information that is essential for the downstream task, rather than reconstructing the videos at the edge server. Specifically, it extracts compact task-relevant features based on the deterministic information bottleneck (IB) principle, which characterizes a tradeoff between the informativeness of the features and the communication cost. As the features of consecutive frames are temporally correlated, we propose a temporal entropy model (TEM) to reduce the bitrate by taking the previous features as side information in feature encoding. To further improve the inference performance, we build a spatial-temporal fusion module at the server to integrate features of the current and previous frames for joint inference. Extensive experiments on video analytics tasks evidence that the proposed framework effectively encodes task-relevant information of video data and achieves a better rate-performance tradeoff than existing methods.
 
-![avatar](./img/framework.png)
 
 
 ## Experiments
@@ -17,6 +16,7 @@ Our method enables low-latency inference that reduces the communication overhead
 In particular, we select the multiple object detection accuracy (MODA) as the performance metric.
 
 
+![avatar](./img/framework.png)
 
 
 
