@@ -35,7 +35,7 @@ The [official Pytorch implementation](https://github.com/hou-yz/MVDet) of MVDet 
 
 - torch, torchvision
 - cv2, PIL, matplotlib
-- nunmpy, scipy
+- numpy, scipy
 - tqdm
 
 ### Others
