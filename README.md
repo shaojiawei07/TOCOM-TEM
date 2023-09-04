@@ -38,6 +38,8 @@ The [official Pytorch implementation](https://github.com/hou-yz/MVDet) of MVDet 
 - numpy, scipy
 - tqdm
 
+Note that numpy 1.24 removes alias `numpy.float` and causes an error `'AttributeError: module 'numpy' has no attribute 'float'`.
+
 ### Others
 
 - Two GPU cards are required.
