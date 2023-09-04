@@ -27,7 +27,7 @@ Download the dataset by using this [link](http://documents.epfl.ch/groups/c/cv/c
 We use the first 90% frames for training and the last 10% frames for testing.
 
 - We use [MVDet](https://link.springer.com/chapter/10.1007/978-3-030-58571-6_1) as the backbone of the neural networks.
-The [official Pytorch implementation](https://github.com/hou-yz/MVDet) of MVDet made this work possible.
+The [official Pytorch implementation](https://github.com/hou-yz/MVDet) of MVDet makes this work possible.
 
 
 
